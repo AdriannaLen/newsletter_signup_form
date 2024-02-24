@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: hsl(234, 29%, 20%);
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+.container {
+
+    display: flex;
+    position: relative;
+    margin: 80px auto;
+    background-color: white;
+    height: 90vh;
+    width: 60vw;
+    border-radius: 30px;
+    
+}
+
+header {
+    font-size: 34px;
+    color: hsl(234, 29%, 20%);
+    padding-bottom: 15px;
+    font-weight: 700;
+    
+}
+.sign__form {
+
+    margin: 70px 0 100px 50px;
+    width: 40%;
+    
+}
+
+.paragraph {
+
+    margin: 5px 0 20px 0;
+
+}
+
+
+li {
+    
+
+    margin: 5px 0 5px 0;
+    list-style: none;
+
+}
+
+.img {
+
+    margin: 0 15px 0 0;
+}
+
+.email {
+
+    margin: 30px 0 5px 0;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+input[type=text] {
+
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+input {
+
+border-color: rgb(236, 230, 230);
+}
+
+button {
+
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: hsl(234, 29%, 20%);
+  font-weight: 700;
+  color: hsl(0, 0%, 100%)
+  
+}
+
+button:hover {
+
+    background: linear-gradient(
+        41deg,
+        rgba(255, 83, 119, 1) 0%,
+        rgba(255, 104, 65, 1) 79%);
+    border: none;
+}
+
+.container__right {
+
+    width: 60%;
+    position: relative;
+    display: flex;
+    
+}
+
+.bilbord {
+    
+    height: 100%;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    justify-content: center;
+}
