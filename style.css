@@ -31,8 +31,12 @@ header {
 }
 .sign__form {
 
-    margin: 70px 0 100px 50px;
-    width: 40%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-content: center;
     
 }
 
@@ -85,7 +89,8 @@ button {
   margin-top: 20px;
   background-color: hsl(234, 29%, 20%);
   font-weight: 700;
-  color: hsl(0, 0%, 100%)
+  color: hsl(0, 0%, 100%);
+  transition: 1s;
   
 }
 
@@ -96,6 +101,8 @@ button:hover {
         rgba(255, 83, 119, 1) 0%,
         rgba(255, 104, 65, 1) 79%);
     border: none;
+    transition: 1s;
+    cursor: pointer;
 }
 
 .container__right {
