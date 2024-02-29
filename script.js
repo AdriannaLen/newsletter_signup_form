@@ -16,8 +16,8 @@
 
 // Get references to the input field, error message, and the subscribe button
 const emailInput = document.getElementById('emailInput');
-const error = document.querySelector('.error');
 const subscribeButton = document.getElementById('subscribe');
+const invalidEmail = document.getElementById("invalidEmail");
 
 // Function to validate email
 function validateEmail(email) {
@@ -32,9 +32,12 @@ function subscribe() {
 
     // Validate email format
     if (!validateEmail(email)) {
+
         // Display error message if email is invalid
 
-       
+        invalidEmail.textContent = "Valid email required";
+        invalidEmail.style.display = "block";
+
         return; // Exit function if email is invalid
     }
 
@@ -44,6 +47,7 @@ function subscribe() {
          [0].classList.add("active");
         
          mainContent.style.display = "none";
+         invalidEmail.style.display = "none";
      }
 
     // Clear the input field after subscription
